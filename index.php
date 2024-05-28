@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html lang="es ">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Bienvenidos a amartorells</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
-<body>
-        <header>
-            <h1 class="titulo">El Rincon De Amartorells <span>videojuegos</span></h1>
-        </header>
-        <div class="bg-secundario">
-            <nav class= "navegacion-principal contenedor">
-                <a href="home.html">Home</a>
-                <a href="mundo_abierto.html">Mundo Abierto</a>
-                <a href="carreras.html">Carreras</a>
-                <a href="online.html">Online</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </div>
+<?php 
+    include 'db.php';
+    include 'header.php';
+?>
     <section class="hero">
         <div class="contenido-hero">
             <h2>Descubre el mundo de los videojuegos</h2>
@@ -37,7 +16,7 @@
                       </svg>
                 <p>Toda las categorias</p>
             </div>
-            <a class="boton" href="boton.html">juega</a>
+            <a class="boton" href="juega.php">juega</a>
         </div>
     </section>
     <main class="contenedor sombra">
@@ -84,48 +63,7 @@
             </svg>
             </div>
         <p>Descubre increíbles juegos multijugador para jugar con amigos</p>
-    </section>
-        </div>
-        <section>
-            <h2>Contacto</h2>
-            <form class="formulario" action="">
-                <fieldset>
-                    <legend>Contáctame enviando tus datos</legend>
-                    <div class="contededor-campos">
-                        <div class="campo">
-                            <div>
-                                <label for="">Nombre:</label>
-                                <input class="input-text" type="text" name="Nombre:" placeholder="Tu Nombre">
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Teléfono:</label>
-                                <input class="input-text" type="tel" name="Teléfono:" placeholder="Tu Teléfono">
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Correo:</label>
-                                <input class="input-text" type="email" name="Correo:" placeholder="Tu Correo">
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Mensaje:</label>
-                                <textarea class="input-text" name="Mensaje:" id="" cols="30" rows="10"></textarea>
-                            </div>
-                        </div>
-                        <div>
-                            <input class="boton" type="submit" value="Enviar">
-                        </div>
-                    </div>
-                </fieldset>
-            </form>
-        </section>
     </main>
-    <footer>
-        <p>Todos los derechos reservados</p>
-    </footer>
-</body>
-</html>
+<?php
+    include 'footer.php';
+?>
