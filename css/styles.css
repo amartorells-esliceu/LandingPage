@@ -241,9 +241,9 @@ p{
 .mensaje{
     width: 50%;
     text-align: center;
-    border-radius: 1rem;
-    border: 3rem solid white;
-    margin-top: 3rem;
+    border-radius: 2rem;
+    border: 2rem solid white;
+    margin-top: 2.5rem;
     font-size: 3rem;
     text-transform: uppercase;
 }
