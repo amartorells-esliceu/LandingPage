@@ -27,3 +27,4 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
 }else{
     echo "ERROR EN METODO POST";
 }
+.
