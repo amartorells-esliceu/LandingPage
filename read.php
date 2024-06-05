@@ -9,20 +9,20 @@ include 'db.php';
 <h1>Leer mensajes</h1>
 
 <div class="contenedor listado">
-    <div class="fila.cabecera">
-        <div class="campo.Cabecera">
+    <div class="fila cabecera">
+        <div class="campoCabecera">
             id
         </div>
-        <div class="campo.Cabecera">
+        <div class="campoCabecera">
             Nombre
         </div>
-        <div class="campo.Cabecera">
+        <div class="campoCabecera">
             Telefono
         </div>
-        <div class="campo.Cabecera">
+        <div class="campoCabecera">
             Correo
         </div>
-        <div class="campo.Cabecera">
+        <div class="campoCabecera">
             Mensaje
         </div>
     </div>
@@ -40,7 +40,7 @@ include 'db.php';
                     <div class="campo"><?=$row['nombre']?></div>
                     <div class="campo"><?=$row['telefono']?></div>
                     <div class="campo"><?=$row['correo']?></div>
-                    <div class="campo"><?=['mensaje']?></div>
+                    <div class="campo"><?=$row['mensaje']?></div>
             </div>
 
         <?php

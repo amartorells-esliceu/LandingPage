@@ -263,7 +263,7 @@ p{
 }
 
 .fila{
-    display: grid
+    display: grid;
     grid-template-columns: .5fr 2fr 1fr 2fr 3fr;
 }
 
