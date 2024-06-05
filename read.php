@@ -35,14 +35,13 @@ include 'db.php';
                 $paridad="par";
             }
             ?>
-            <div class="fila" <?=$paridad?>">
+            <div class="fila <?=$paridad?>">
                     <div class="campo"><?=$row['id']?></div>
                     <div class="campo"><?=$row['nombre']?></div>
                     <div class="campo"><?=$row['telefono']?></div>
                     <div class="campo"><?=$row['correo']?></div>
                     <div class="campo"><?=$row['mensaje']?></div>
             </div>
-
         <?php
         }
     ?>
