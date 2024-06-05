@@ -9,6 +9,24 @@ include 'db.php';
 <h1>Leer mensajes</h1>
 
 <div class="contenedor listado">
+    <div class="fila.cabecera">
+        <div class="campo.Cabecera">
+            id
+        </div>
+        <div class="campo.Cabecera">
+            Nombre
+        </div>
+        <div class="campo.Cabecera">
+            Telefono
+        </div>
+        <div class="campo.Cabecera">
+            Correo
+        </div>
+        <div class="campo.Cabecera">
+            Mensaje
+        </div>
+
+    </div>
     <?php
         while($row = $result->fetch_assoc()){
             ?>

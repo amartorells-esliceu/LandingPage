@@ -247,3 +247,8 @@ p{
     font-size: 3rem;
     text-transform: uppercase;
 }
+
+.fil{
+    display: grid
+    grid-template-columns: .5fr 2fr 1fr 2fr 3fr;
+}
