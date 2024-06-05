@@ -248,7 +248,34 @@ p{
     text-transform: uppercase;
 }
 
-.fil{
+.cabecera{
+    padding-bottom: 1rem;
+}
+
+.campoCabecera{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem 0;
+    background-color: var(--gris);
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid var(--oscuro);
+}
+
+.fila{
     display: grid
     grid-template-columns: .5fr 2fr 1fr 2fr 3fr;
+}
+
+.campo{
+    font-size: 2rem;
+    margin: 0 2rem;
+}
+
+.fila.impar{
+    background-color: rgb(219, 228, 243);
+}
+
+.fila.par{
+    background-color: rgb(240, 240, 216);
 }
