@@ -3,7 +3,7 @@
 
 ?>
 
-<h1>juega</h1>
+<h1>Juega</h1>
 
 <?php
     include 'footer.php';
