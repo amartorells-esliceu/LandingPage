@@ -44,11 +44,14 @@ include 'db.php';
                     <div class="campo"><?=$row['telefono']?></div>
                     <div class="campo"><?=$row['correo']?></div>
                     <div class="campo">
-                        <?=$row['mensaje']?>
-                        <?=substr($row{"mensaje"},0,51)?>...
+                        <?=substr($row["mensaje"],0,51)?>...
                     </div>
                     <div class="btn-borrar">
-                        <a href="borrar.php?id=<?=$row['id']?>">Borrar</a>
+                        <a href="borrar.php?id=<?=$row['id']?>"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backspace" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z" />
+    <path d="M12 10l4 4m0 -4l-4 4" />
+</svg></a>
                     </div>
             </div>
                 <?php
