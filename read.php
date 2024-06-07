@@ -43,7 +43,10 @@ include 'db.php';
                     <div class="campo"><?=$row['nombre']?></div>
                     <div class="campo"><?=$row['telefono']?></div>
                     <div class="campo"><?=$row['correo']?></div>
-                    <div class="campo"><?=$row['mensaje']?></div>
+                    <div class="campo">
+                        <?=$row['mensaje']?>
+                        <?=substr($row{"mensaje"},0,51)?>...
+                    </div>
                     <div class="btn-borrar">
                         <a href="borrar.php?id=<?=$row['id']?>">Borrar</a>
                     </div>

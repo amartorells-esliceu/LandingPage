@@ -9,6 +9,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET"); {
     $result = $stmt->execute();
 
     $msg="Registro borrado con exito";
-    header("Location: read.php?status=success&msg=".$smg);
+    header("Location: read.php?status=success&msg=".$msg);
     
 }
