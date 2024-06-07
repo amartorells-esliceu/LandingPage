@@ -273,9 +273,9 @@ p{
 }
 
 .fila.impar{
-    background-color: rgb(219, 228, 243);
+    background-color: rgb(208, 223, 249);
 }
 
 .fila.par{
-    background-color: rgb(240, 240, 216);
+    background-color: rgb(255, 255, 197);
 }
