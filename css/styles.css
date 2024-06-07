@@ -264,7 +264,7 @@ p{
 
 .fila{
     display: grid;
-    grid-template-columns: .5fr 2fr 1fr 2fr 3fr;
+    grid-template-columns: .5fr 1.5fr 1fr 1.5fr 2fr 1fr;
 }
 
 .campo{
@@ -273,7 +273,7 @@ p{
 }
 
 .fila.impar{
-    background-color: rgb(208, 223, 249);
+    background-color: rgb(210, 226, 255);
 }
 
 .fila.par{
